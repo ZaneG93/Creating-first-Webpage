@@ -1,0 +1,145 @@
+<!DOCTYPEhtml>
+<html>
+ <head>
+  <title> Quiz nights on a Webpage</title>
+ </head>
+<style>
+	h1{color:crimson;font-family:monospace;}
+	h2{color:red;}
+	h2{font-family: baskerville;}
+	h3{color:blue;}
+ .titles {font-size:30px;}
+ 
+ .larger-img{
+ width:400px; height:350;
+	border-color:black;
+	border-width:5px; 
+	border-style:solid; 
+	border-radius:10%;
+	position: relative;
+	display:block;
+	margin:auto;}
+	
+.top-page{
+background:linear-gradient(45deg,red,yellow,rgb(204,204,255));
+text-align: center;
+ padding: 25px 50px 50px 25px;
+ margin: 25px 25px 25px 25px;
+ border-color:white;
+ border-radius:0%;
+ border-style: solid;
+ border-width:10px;
+ }	
+	
+.body{
+ background-color: skyblue;
+ padding: 100px 100px 100px 100px;
+ margin: 50px 50px 50px 50px;
+ text-align: justify;
+ postion: relative;
+ left: 50px;
+ box-shadow: 0 10px 20px rgba(255,0,0,0.19), 0 6px 6px rgba(50,0,0,0.23);
+ }
+ 
+ #lists{
+ font-family: Arial;
+ font-size:16px;
+ color:magenta;}
+ 
+ .moon{
+    position: relative;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 5px 10px blue;}
+	
+.titles {
+animation-name:rainbow;
+animation-duration: 10s;
+animation-fill-mode: forwards;}
+@keyframes rainbow {
+ 0%{background-color: red;} 
+ 50%{background-color: yellow;}
+ 100%{background-color: red;}
+}
+
+  }
+ 
+</style>
+
+
+
+<div class="top-page">
+  <h1> Quiz Nights Made Difficult!<h1>
+    <h2 class="titles">I want to play a game...</h2>
+      <p>
+        BUT YOU ARE NOT TO USE <a href="http://google.com">GOOGLE!!!</a>
+      </p>
+</div>
+	<hr/>
+ <div>
+	<img class="larger-img" src="jpg.jpg" alt="Quiz Master">
+ </div>
+    <hr/>
+<body class="body">	
+  <div>
+   
+   <p>
+	<h3>Round 1: ARE YOU READY?</h3>
+	 <ol id="lists">
+       <li> How do I get this image to appear?</li>
+	     <ul>
+	       <label> <input type="radio" name="what worked?">Did this work?</label>
+	        <br>
+           <label><input type="checkbox" name="what worked?">or did this work? </label>
+	     </ul>
+      <li>I think this list works</li>
+		   <input type="text" placeholder="type answer here">
+    </ol>
+  </p>
+</div>
+
+<div>
+  <p>
+    <h3> Round 2: More Questions</h3>
+      <ol id="lists"> 
+        <li> Think im getting the hang of this</li>
+        <li> or am I?</li> <input type="text" placeholder="type answer here">
+		
+      </ol>
+    </p>
+</div>
+
+<div>
+  <p>
+     <h3>Round 3: Less Questions</h3>
+	   <ol id="lists"> 
+         <li> I need to add submit code to this so peope can type answers</li>
+         <li> like this</li>
+		   <input type="text" placeholder="type answer here">
+		 
+      </ol>
+    </p>
+</div>
+	
+	 
+<div>
+  <p>
+     <h3> Round 4: A few more queries</h3>
+	   <ol id="lists"> 
+         <li> I need to add an  area for the answers to be submitted</li>
+         <li> Test field here?</li><input type="text" placeholder="type answer here">
+	  </ol>
+    </p>
+</div> 
+
+ <div class="moon"></div>
+  </body>
+  &copy; 2020 Gates
+</html>
